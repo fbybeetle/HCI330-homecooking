@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+  	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src = "proj_demo.js" language = "JavaScript"></script>
+  	<title>Cooking home</title>
+</head>
+
+<body>
+
+		<section id="body" class="width">
+			<aside id="sidebar" class="column-left">
+				<div id="SidebarTitle"><a href="main.html">Home Cooking</a></div>
+				
+
+				<div class="leftbarcontainer">
+
+					<ul>
+						<li>
+							<button type="button" onclick = "Search()">Search</button>
+						</li>
+						<li class="dropdown">
+							<a href="#" data-toggle="dropdown">Diary <i class="icon-arrow"></i></a>
+							<ul class="dropdown-menu">
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Egg">Egg</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Butter">Butter</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Milk">Milk</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Cheese">Cheese</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" data-toggle="dropdown">Vegetable <i class="icon-arrow"></i></a>
+							<ul class="dropdown-menu">
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Lettuce">Lettuce</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Tomato">Tomato</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Potato">Potato</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Onion">Onion</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" data-toggle="dropdown">Protein <i class="icon-arrow"></i></a>
+							<ul class="dropdown-menu">
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Pork">Pork</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Chicken">Chicken</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Beef">Beef</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Lamp">Lamp</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Sausage">Sausage</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" data-toggle="dropdown">Grain <i class="icon-arrow"></i></a>
+							<ul class="dropdown-menu">
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Flour">Flour</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Rice">Rice</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Pasta">Pasta</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Noodle">Noodle</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" data-toggle="dropdown">Seasoning <i class="icon-arrow"></i></a>
+							<ul class="dropdown-menu">
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Pepper">Pepper</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Salt">Salt</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Honey Mustard">Honey Mustard</a></li>
+								<li><a><input type="checkbox" onchange = "Clicked(this)" value = "Soy Sauceåß">Soy Sauce</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<script src="js/index.js"></script>
+				</aside>
+			<section id="content" class="column-right">     		
+	    <article>
+
+			<div class = "h22">Recipes</div>
+				<div class="submain">
+				<iframe src="submain.html" frameborder="0" width="600" height="850" id = "ifr1" name = "ifr1" scrolling="yes"></iframe>
+				</div>
+		</article>
+
+
+		</section>
+
+		<div class="clear"></div>
+
+	</section>
+	
+
+</body>
+</html>
