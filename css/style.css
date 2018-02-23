@@ -73,6 +73,7 @@ body {
   color: #fff;
   top: 14px;
   right: 10px;
+  font-style: normal !important;
 }
 .dropdown .icon-arrow.open {
   -moz-transform: rotate(-180deg);

@@ -6,10 +6,12 @@
   	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
   	<link rel="stylesheet" href="css/normalize.css">
   	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+	<link rel="stylesheet" href="commentstyle.css" media="screen" type="text/css" />
   	<link rel="stylesheet" href="styles.css" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src = "proj_demo.js" language = "JavaScript"></script>
+	<script src = "comment.js" language = "JavaScript"></script>
   	<title>Cooking home</title>
 </head>
 
@@ -31,10 +33,20 @@
 				<iframe src="submain.html" frameborder="0" width="600" height="850" id = "ifr1" name = "ifr1" scrolling="yes"></iframe>
 				</div>
 				
+				<label for="comment" class="required">Your name</label>
+				<textarea name="comment" class = "name_input"id="you_name" rows="1" tabindex="2"  ></textarea>
+				<br>
 				<label for="comment" class="required">Your message</label>
-    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
-	
-<button type="button" class = "comment_button" id = "com_button" onclick = "">Submit</button>
+    <textarea name="comment" class = "content_input"id="you_comment" rows="6" tabindex="4"  required="required"></textarea>
+	<br>
+<button type="button" class = "comment_button" id = "com_button" onclick = "push_comment()">Submit</button>
+
+
+<div class = "comment_block" id = "comment_block">Other's comments on this recipe
+<div  class = "comment_name" id = "">ZiQin:</div>
+<div class = "comment_content">cool dude</div>
+  </div>
+</div>
 		</article>
 
 
