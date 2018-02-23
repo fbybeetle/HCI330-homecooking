@@ -12,7 +12,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src = "proj_demo.js" language = "JavaScript"></script>
 	<script src = "comment.js" language = "JavaScript"></script>
-  	<title>Cooking home</title>
+  	<title>Recipe</title>
 </head>
 
 <body>
@@ -20,6 +20,28 @@
 		<section id="body" class="width">
 			<aside id="sidebar" class="column-left">
 				<div id="SidebarTitle"><a href="main.html">Home Cooking</a></div>
+
+
+				<div class="leftbarcontainer">
+					<ul>
+						<li>
+							<button onclick="goToOverview()" class="recipeTab">Overview </button>
+						</li>
+						<li>
+							<button onclick="goToIngredients()" class="recipeTab">Ingredients </button>
+						</li>
+						<li>
+							<button  onclick="goToDirections()" class="recipeTab">Directions </button>
+						</li>
+						<li>
+							<button onclick="goToReview()" class="recipeTab">Reviews & Ratings </button>
+						</li>
+					</ul>
+
+				</div>
+
+
+
 				<script src="js/index.js"></script>
 				</aside>
 			<section id="content" class="column-right">     		
@@ -35,15 +57,15 @@
 				<label for="comment" class="required">Your message</label>
     <textarea name="comment" class = "content_input"id="you_comment" rows="6" tabindex="4"  required="required"></textarea>
 	<br>
-<div class = " button_block"><button type="button" class = "comment_button" id = "com_button" onclick = "push_comment()">Submit</button></div>
-<div class = "h22" id = "Review">Comments</div>
-<br>
-<div class = "comment_block" id = "comment_block">
-<div  name = "usrname" class = "comment_name" id = "">ZiQin:</div>	
-<label class = "comment_time" for = "usrname"> </label> 
+<button type="button" class = "comment_button" id = "com_button" onclick = "push_comment()">Submit</button>
+
+
+<div class = "comment_block" id = "comment_block">Other's comments on this recipe
+<div  class = "comment_name" id = "">ZiQin:</div>
 <div class = "comment_content">cool dude</div>
   </div>
 </div>
+
 		</article>
 
 

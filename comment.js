@@ -11,19 +11,15 @@ function Clicked(element){
 }
 
 function push_comment(){
-	var myDate = new Date();
-	myDate.toLocaleTimeString();
 	var name = document.getElementById("you_name").value;
 	var content = document.getElementById("you_comment").value;
 	var block = document.getElementById("comment_block");
+	
 	var newcomment = document.createElement("div");
 	var new_user = document.createElement("div");
 	var new_content = document.createElement("div");
-	var new_time = document.createElement("label");
-	new_time.innerHTML = myDate;
 	new_user.setAttribute("class", "comment_name");
 	new_content.setAttribute("class","comment_content") ;
-	new_time.setAttribute("class","comment_time") ;
 	new_content.innerHTML = content;
 	name += ":";
 	new_user.innerHTML = name;
@@ -31,8 +27,28 @@ function push_comment(){
 	document.getElementById("you_name").value = "";
 	document.getElementById("you_comment").value = "";
 	newcomment.appendChild(new_user);
-	newcomment.appendChild(new_time);
 	newcomment.appendChild(new_content);
 	block.appendChild(newcomment);
+
+
+	
+	
 }
 
+function goToOverview() {
+    $("html,body").animate({scrollTop: $("#Overview").offset().top}, 500);//relocate to Overview
+}
+
+function goToIngredients() {
+    $("html,body").animate({scrollTop: $("#Ingredients").offset().top}, 500);//relocate to Ingredients
+}
+
+function goToDirections() {
+    $("html,body").animate({scrollTop: $("#Directions").offset().top}, 500);//relocate to Directions
+}
+
+function goToReview() {
+    $("html,body").animate({scrollTop: $("#Review").offset().top}, 500);//relocate to Review
+}
+
+//Remember adding ID for each section when editing subpage of recipe

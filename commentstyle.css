@@ -35,13 +35,9 @@ body {
 }
 .comment_button{
 	
-	text-align:right
+	float:right;
 }
-.button_block{
-	width:550px;
-	margin-top:25px;
-	text-align:right
-}
+
 .comment_block{
 	margin-top:25px;
 	
@@ -58,17 +54,15 @@ resize: none;
 overflow:hidden;
 	}
 .comment_name{
-	font-size:15px;
+	font-size:25px;
 }
 .comment_content{
-	font-size:13px;
+	font-size:18px;
 }
 	
-.comment_time{
-	float:right;
-	font-size:5px;
-}
-
+	
+	
+	
 	
 #SidebarTitle
 {
