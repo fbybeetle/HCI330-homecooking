@@ -19,27 +19,26 @@
 
 		<section id="body" class="width">
 			<aside id="sidebar" class="column-left">
-				<div id="SidebarTitle"><a href="main.html">Home Cooking</a></div>
+				<div class = "recipe_menu">
+					<div id="SidebarTitle"><a href="main.html">Home Cooking</a></div>
+					<div class="leftbarcontainer">
+						<ul>
+							<li>
+								<button onclick="goToOverview()" class="recipeTab">Overview </button>
+							</li>
+							<li>
+								<button onclick="goToIngredients()" class="recipeTab">Ingredients </button>
+							</li>
+							<li>
+								<button  onclick="goToDirections()" class="recipeTab">Directions </button>
+							</li>
+							<li>
+								<button onclick="goToReview()" class="recipeTab">Reviews & Ratings </button>
+							</li>
+						</ul>
 
-
-				<div class="leftbarcontainer">
-					<ul>
-						<li>
-							<button onclick="goToOverview()" class="recipeTab">Overview </button>
-						</li>
-						<li>
-							<button onclick="goToIngredients()" class="recipeTab">Ingredients </button>
-						</li>
-						<li>
-							<button  onclick="goToDirections()" class="recipeTab">Directions </button>
-						</li>
-						<li>
-							<button onclick="goToReview()" class="recipeTab">Reviews & Ratings </button>
-						</li>
-					</ul>
-
+					</div>
 				</div>
-
 
 
 				<script src="js/index.js"></script>

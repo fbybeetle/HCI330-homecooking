@@ -40,6 +40,11 @@ body {
   font-size: 16px;
 }
 
+.recipe_menu{
+  position:fixed;
+  z-index:1;
+}
+
 .title {
   font-family: 'Pacifico';
   font-weight: normal;
