@@ -11,15 +11,19 @@ function Clicked(element){
 }
 
 function push_comment(){
+	var myDate = new Date();
+	myDate.toLocaleTimeString();
 	var name = document.getElementById("you_name").value;
 	var content = document.getElementById("you_comment").value;
 	var block = document.getElementById("comment_block");
-	
 	var newcomment = document.createElement("div");
 	var new_user = document.createElement("div");
 	var new_content = document.createElement("div");
+	var new_time = document.createElement("label");
+	new_time.innerHTML = myDate;
 	new_user.setAttribute("class", "comment_name");
 	new_content.setAttribute("class","comment_content") ;
+	new_time.setAttribute("class","comment_time") ;
 	new_content.innerHTML = content;
 	name += ":";
 	new_user.innerHTML = name;
@@ -27,11 +31,8 @@ function push_comment(){
 	document.getElementById("you_name").value = "";
 	document.getElementById("you_comment").value = "";
 	newcomment.appendChild(new_user);
+	newcomment.appendChild(new_time);
 	newcomment.appendChild(new_content);
 	block.appendChild(newcomment);
-
-
-	
-	
 }
 
