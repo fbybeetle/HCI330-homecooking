@@ -23,12 +23,15 @@ function push_comment(){
 	new_content.innerHTML = content;
 	name += ":";
 	new_user.innerHTML = name;
+	window.alert("submit successfully");
+	document.getElementById("you_name").value = "";
+	document.getElementById("you_comment").value = "";
 	newcomment.appendChild(new_user);
 	newcomment.appendChild(new_content);
 	block.appendChild(newcomment);
+
+
 	
-	document.getElementById("you_name").value = "";
-	document.getElementById("you_comment").value = "";
 	
 }
 

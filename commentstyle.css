@@ -51,6 +51,7 @@ resize: none;
 	width: 120px;
 	margin-bottom:15px;
 resize: none;
+overflow:hidden;
 	}
 .comment_name{
 	font-size:25px;
