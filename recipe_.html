@@ -4,14 +4,19 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<link href="css/star-rating.css" media="all" rel="stylesheet" type="text/css"/>
   	<link rel="stylesheet" href="css/normalize.css">
   	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 	<link rel="stylesheet" href="commentstyle.css" media="screen" type="text/css" />
   	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 	<script src = "proj_demo.js" language = "JavaScript"></script>
 	<script src = "comment.js" language = "JavaScript"></script>
+	<script src="js/jquery.min.js"></script>
+    <script src="js/star-rating.js" type="text/javascript"></script>
   	<title>Cooking home</title>
 </head>
 
@@ -19,25 +24,26 @@
 
 		<section id="body" class="width">
 			<aside id="sidebar" class="column-left">
-				<div id="SidebarTitle"><a href="main.html">Home Cooking</a></div>
+				<div id="SidebarTitle"><a href="index.html">Home Cooking</a></div>
 				<script src="js/index.js"></script>
 				</aside>
 			<section id="content" class="column-right">     		
 	    <article>
 			<div class = "h22">Recipes</div>
-				<div class="submain">
+				<div class="main_content">
 				<iframe src="submain.html" frameborder="0" width="600" height="850" id = "ifr1" name = "ifr1" scrolling="yes"></iframe>
 				</div>
-				
-				<label for="comment" class="required">&nbsp; &nbsp; &nbsp; Your name</label>
+				<div class = "write_area">
+				<input id="input_star" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="lg">
+				<label for="comment" class="required"> Your name</label>
 				<textarea name="comment" class = "name_input" id="you_name" rows="1" tabindex="2"  ></textarea>
 				<br>
 				<label for="comment" class="required">Your message</label>
     <textarea name="comment" class = "content_input"id="you_comment" rows="6" tabindex="4"  required="required"></textarea>
-	<br>
+	       </div>
 <div class = " button_block"><button type="button" class = "comment_button" id = "com_button" onclick = "push_comment()">Submit</button></div>
 <div class = "h22" id = "Review">Comments</div>
-<br>
+<hr   class = "block_line"/>
 <div class = "comment_block" id = "comment_block">
 <div  name = "usrname" class = "comment_name" id = "">ZiQin:</div>	
 <label class = "comment_time" for = "usrname"> </label> 
@@ -45,8 +51,6 @@
   </div>
 </div>
 		</article>
-
-
 		</section>
 
 		<div class="clear"></div>

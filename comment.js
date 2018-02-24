@@ -16,10 +16,21 @@ function push_comment(){
 	var name = document.getElementById("you_name").value;
 	var content = document.getElementById("you_comment").value;
 	var block = document.getElementById("comment_block");
+	var star_number = document.getElementById("input_star").value;
 	var newcomment = document.createElement("div");
 	var new_user = document.createElement("div");
 	var new_content = document.createElement("div");
 	var new_time = document.createElement("label");
+	var new_star = document.createElement("input");
+	new_star.setAttribute("value",star_number);
+	new_star.setAttribute("type","number");
+	new_star.setAttribute("class","rating");
+	new_star.setAttribute("id","input-21b");
+	new_star.setAttribute("min","0");
+	new_star.setAttribute("max","5");
+	new_star.setAttribute("step","0.5");
+	new_star.setAttribute("data-size","lg");
+	new_star.setAttribute("disabled","disabled")
 	new_time.innerHTML = myDate;
 	new_user.setAttribute("class", "comment_name");
 	new_content.setAttribute("class","comment_content") ;
@@ -31,6 +42,7 @@ function push_comment(){
 	document.getElementById("you_name").value = "";
 	document.getElementById("you_comment").value = "";
 	newcomment.appendChild(new_user);
+	newcomment.appendChild(new_star);
 	newcomment.appendChild(new_time);
 	newcomment.appendChild(new_content);
 	block.appendChild(newcomment);
