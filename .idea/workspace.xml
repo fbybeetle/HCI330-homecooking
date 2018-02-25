@@ -27,6 +27,7 @@
         <entry file="file://$PROJECT_DIR$/recipe_.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="177">
               <caret line="106" column="34" lean-forward="false" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
               <folding />
@@ -51,6 +52,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
               <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+=======
+            <state relative-caret-position="180">
+              <caret line="12" column="72" lean-forward="true" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+>>>>>>> b62c108dfbae3eb7ac20d71d30055fa332e930ea
 =======
             <state relative-caret-position="180">
               <caret line="12" column="72" lean-forward="true" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
@@ -304,8 +309,12 @@
       <workItem from="1518987720965" duration="3919000" />
       <workItem from="1519547696603" duration="2010000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1519573189655" duration="1578000" />
       <workItem from="1519574841030" duration="1040000" />
+=======
+      <workItem from="1519573189655" duration="1315000" />
+>>>>>>> b62c108dfbae3eb7ac20d71d30055fa332e930ea
 =======
       <workItem from="1519573189655" duration="1315000" />
 >>>>>>> b62c108dfbae3eb7ac20d71d30055fa332e930ea
@@ -313,6 +322,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="8560000" />
   </component>
@@ -322,6 +332,11 @@
     <option name="totallyTimeSpent" value="7257000" />
   </component>
   <component name="ToolWindowManager">
+=======
+    <option name="totallyTimeSpent" value="7257000" />
+  </component>
+  <component name="ToolWindowManager">
+>>>>>>> b62c108dfbae3eb7ac20d71d30055fa332e930ea
     <frame x="27" y="68" width="1395" height="773" extended-state="0" />
     <editor active="true" />
 >>>>>>> b62c108dfbae3eb7ac20d71d30055fa332e930ea
@@ -665,6 +680,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe_.css">
+<<<<<<< HEAD
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/substyles.css">
+>>>>>>> b62c108dfbae3eb7ac20d71d30055fa332e930ea
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="24" />
@@ -700,6 +726,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+<<<<<<< HEAD
           <folding />
         </state>
       </provider>
@@ -709,12 +736,15 @@
 <<<<<<< HEAD
         <state relative-caret-position="177">
           <caret line="106" column="34" lean-forward="false" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
+=======
+>>>>>>> b62c108dfbae3eb7ac20d71d30055fa332e930ea
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/star-rating.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-5361">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -735,6 +765,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="155" column="3" lean-forward="true" selection-start-line="155" selection-start-column="3" selection-end-line="155" selection-end-column="3" />
+=======
+        <state relative-caret-position="180">
+          <caret line="12" column="72" lean-forward="true" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+>>>>>>> b62c108dfbae3eb7ac20d71d30055fa332e930ea
 =======
         <state relative-caret-position="180">
           <caret line="12" column="72" lean-forward="true" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
