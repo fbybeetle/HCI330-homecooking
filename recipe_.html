@@ -29,8 +29,7 @@
 		<section id="content" class="column-right">     		
 			<div class="h22 recipe_title">
 				<h1 class="recipe_name">Salt Grilled Chicken</h1><span class="recipe_username">by Mr.Carnivore</span>
-				<img id="rating_img" src="image/stars.png">
-				<span class="review_counts">4 out of 5 (20 reviews)</span>
+				<img id="rating_img" src="image/star.png">
 			</div>
 			<div class="recipe_image_ingredients_wrapper">
 				<img src = "image/chicken.jpg" class="recipe_img_large recipe_img_round"  alt= "Salt Grilled Chicken">
@@ -61,7 +60,9 @@
 			</div>
 
 			<article>
-				<label for="comment" class="required">&nbsp; &nbsp; &nbsp; Your name</label>
+			
+			<input id = "input_star" value = "0" type = "number" class = "rating" min=0 max=5 step=0.5 data-size = "lg">
+				<label for="comment" class="required">Your name</label>
 				<textarea name="comment" class = "name_input" id="you_name" rows="1" tabindex="2"  ></textarea>
 				<br>
 				<label for="comment" class="required">Your message</label>
