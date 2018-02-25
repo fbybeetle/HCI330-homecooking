@@ -56,3 +56,19 @@ function push_comment(){
 	// cur_id = String(int(cur_id) + 1);
 }
 
+
+function goToOverview() {$("html,body").animate({scrollTop: $("#Overview").offset().top}, 500);//relocate to Overview
+}
+function goToTimeConsuming() {$("html,body").animate({scrollTop: $("#TimeConsuming").offset().top}, 500);//relocate to TimeConsuming
+}
+function goToTotalCost() {$("html,body").animate({scrollTop: $("#TotalCost").offset().top}, 500);//relocate to TotalCost
+}
+function goToIngredients() {$("html,body").animate({scrollTop: $("#Ingredients").offset().top}, 500);//relocate to Ingredients
+}
+function goToInstructions() {$("html,body").animate({scrollTop: $("#Instructions").offset().top}, 500);//relocate to Instructions
+}
+function goToReviews() {$("html,body").animate({scrollTop: $("#Reviews").offset().top}, 500);//relocate to Reviews
+}
+
+
+
