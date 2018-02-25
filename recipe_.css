@@ -64,4 +64,45 @@ h1.recipe_name {
 	color: black;
 	font-family: fantasy;
 }
+aside#sidebar {
+	width:320px !important;
+    position: fixed;
+}
+.leftbarcontainer .recipeTab {
+  position: relative;
+  background-color: #D20000;
+  border: 1px solid #D20000;
+  width: 320px !important;
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  padding: 10px;
+}
 
+.leftbarcontainer {
+  width: 320px !important;
+  margin: 50px auto;
+}
+.leftbarcontainer > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.leftbarcontainer #Search {
+  position: relative;
+  left: 195px;
+  background-color: #D20000;
+  border: 1px solid #D20000;
+  border-radius: 4px;
+
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
