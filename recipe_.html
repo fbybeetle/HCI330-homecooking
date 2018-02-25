@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="commentstyle.css" media="screen" type="text/css" />
   	<link rel="stylesheet" href="styles.css" type="text/css" />
   	<link rel="stylesheet" type="text/css" href="recipe_.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
@@ -25,35 +25,11 @@
 	<section id="body" class="width">
 		<aside id="sidebar" class="column-left">
 			<div id="SidebarTitle"><a href="main.html">Home Cooking</a></div>
-			<div class="leftbarcontainer">
-				<ul>
-					<li>
-						<button onclick="goToOverview()" class="recipeTab">Overview </button>
-					</li>
-					<li>
-						<button onclick="goToIngredients()" class="recipeTab">Ingredients </button>
-					</li>
-					<li>
-						<button onclick="goToTimeConsuming()" class="recipeTab">Time Consuming </button>
-					</li>
-					<li>
-						<button onclick="goToTotalCost()" class="recipeTab">Cost </button>
-					</li>
-					<li>
-						<button  onclick="goToInstructions()" class="recipeTab">Instructions </button>
-					</li>
-					<li>
-						<button onclick="goToReviews()" class="recipeTab">Reviews & Ratings </button>
-					</li>
-				</ul>
-
-			</div>
 		</aside>
 		<section id="content" class="column-right">     		
-			<div class="h22 recipe_title" id="Overview">
+			<div class="h22 recipe_title">
 				<h1 class="recipe_name">Salt Grilled Chicken</h1><span class="recipe_username">by Mr.Carnivore</span>
 				<img id="rating_img" src="image/star.png">
-
 			</div>
 			<div class="recipe_image_ingredients_wrapper">
 				<img src = "image/chicken.jpg" class="recipe_img_large recipe_img_round"  alt= "Salt Grilled Chicken">
@@ -67,27 +43,8 @@
 						<li>2 ts Olive Oil</li>
 						<li>1 ts Garlic Powder</li>
 						<li>1 ts Smoked paprika</li>
-					</ul>
+					</ul>	
 				</div>
-			</div>
-			<div class="recipe_instructions">
-				<h2 id="TimeConsuming"  class="recipe_subtitle">Time Consuming</h2>
-				<ul>
-					<li>
-						Preparing Time: About 15 minutes
-					</li>
-					<li>
-						Cooking Time: About 30 minutes
-					</li>
-				</ul>
-			</div>
-			<div class="recipe_instructions">
-				<h2 id="TotalCost"  class="recipe_subtitle">Cost</h2>
-				<ul>
-					<li>
-						$10~20 (depends on chicken you choose)
-					</li>
-				</ul>
 			</div>
 			<div class="recipe_instructions">
 				<h2 id="Instructions" class="recipe_subtitle">Instructions</h2>
@@ -103,8 +60,8 @@
 			</div>
 
 			<article>
-				<div id = "Reviews">
-			    <input id = "input_star" value = "0" type = "number" class = "rating" min=0 max=5 step=0.5 data-size = "lg">
+			
+			<input id = "input_star" value = "0" type = "number" class = "rating" min=0 max=5 step=0.5 data-size = "lg">
 				<label for="comment" class="required">Your name</label>
 				<textarea name="comment" class = "name_input" id="you_name" rows="1" tabindex="2"  ></textarea>
 				<br>
@@ -114,18 +71,23 @@
 				<div class = " button_block"><button type="button" class = "comment_button" id = "com_button" onclick = "push_comment()">Submit</button></div>
 				<div class = "h22" id = "Review">Comments</div>
 				<br>
-				<div class = "comment_block" id = "comment_block">
-					<div  name = "usrname" class = "comment_name" id = "">ZiQin:</div>
-					<label class = "comment_time" for = "usrname"> </label>
-					<div class = "comment_content">cool dude</div>
-				</div>
-				</div>
-				</div>
 			</article>
+			<script>
+			    jQuery(document).ready(function () {
+			        $(".rating-kv").rating();
+			    });
+			</script>
+			<div class = "comment_block" id = "comment_block">
+					<div  name = "usrname" class = "comment_name" id = "">ZiQin:</div>	
+					<label class = "comment_time" for = "usrname"> </label> 
+					<div class = "comment_content">cool dude</div>
+
+				</div>
+
 		</section>
 		<div class="clear"></div>
 	</section>
-
+	
 <script src="js/index.js"></script>
 </body>
 </html>
