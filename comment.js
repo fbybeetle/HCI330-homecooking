@@ -48,3 +48,18 @@ function push_comment(){
 	block.appendChild(newcomment);
 }
 
+function goToOverview() {
+    $("html,body").animate({scrollTop: $("#Overview").offset().top}, 500);//relocate to Overview
+}
+
+function goToIngredients() {
+    $("html,body").animate({scrollTop: $("#Ingredients").offset().top}, 500);//relocate to Ingredients
+}
+
+function goToInstructions() {
+    $("html,body").animate({scrollTop: $("#Instructions").offset().top}, 500);//relocate to Instructions
+}
+
+function goToReviews() {
+    $("html,body").animate({scrollTop: $("#Reviews").offset().top}, 500);//relocate to Reviews
+}

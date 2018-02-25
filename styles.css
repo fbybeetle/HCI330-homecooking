@@ -31,7 +31,6 @@ body {
 }
 .submain{
 	width:650px;
-	width:650px;
 }
 
 #SidebarTitle
@@ -257,10 +256,12 @@ section#content {
   height:550px;
 }
 .column-right {
+
 	float:right;
 }
 aside#sidebar {
 	width:280px;
+    position: fixed;
 }
 nav#mainnav ul {
 	padding: 0;

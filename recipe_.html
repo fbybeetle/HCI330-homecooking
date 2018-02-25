@@ -25,9 +25,26 @@
 	<section id="body" class="width">
 		<aside id="sidebar" class="column-left">
 			<div id="SidebarTitle"><a href="main.html">Home Cooking</a></div>
+			<div class="leftbarcontainer">
+				<ul>
+					<li>
+						<button onclick="goToOverview()" class="recipeTab">Overview </button>
+					</li>
+					<li>
+						<button onclick="goToIngredients()" class="recipeTab">Ingredients </button>
+					</li>
+					<li>
+						<button  onclick="goToInstructions()" class="recipeTab">Instructions </button>
+					</li>
+					<li>
+						<button onclick="goToReviews()" class="recipeTab">Reviews & Ratings </button>
+					</li>
+				</ul>
+
+			</div>
 		</aside>
 		<section id="content" class="column-right">     		
-			<div class="h22 recipe_title">
+			<div class="h22 recipe_title" id="Overview">
 				<h1 class="recipe_name">Salt Grilled Chicken</h1><span class="recipe_username">by Mr.Carnivore</span>
 				<img id="rating_img" src="image/star.png">
 			</div>
@@ -43,7 +60,7 @@
 						<li>2 ts Olive Oil</li>
 						<li>1 ts Garlic Powder</li>
 						<li>1 ts Smoked paprika</li>
-					</ul>	
+					</ul>
 				</div>
 			</div>
 			<div class="recipe_instructions">
@@ -60,7 +77,7 @@
 			</div>
 
 			<article>
-			
+				<div id = "Reviews">
 			<input id = "input_star" value = "0" type = "number" class = "rating" min=0 max=5 step=0.5 data-size = "lg">
 				<label for="comment" class="required">Your name</label>
 				<textarea name="comment" class = "name_input" id="you_name" rows="1" tabindex="2"  ></textarea>
@@ -72,16 +89,17 @@
 				<div class = "h22" id = "Review">Comments</div>
 				<br>
 				<div class = "comment_block" id = "comment_block">
-					<div  name = "usrname" class = "comment_name" id = "">ZiQin:</div>	
-					<label class = "comment_time" for = "usrname"> </label> 
+					<div  name = "usrname" class = "comment_name" id = "">ZiQin:</div>
+					<label class = "comment_time" for = "usrname"> </label>
 					<div class = "comment_content">cool dude</div>
+				</div>
 				</div>
 				</div>
 			</article>
 		</section>
 		<div class="clear"></div>
 	</section>
-	
+
 <script src="js/index.js"></script>
 </body>
 </html>

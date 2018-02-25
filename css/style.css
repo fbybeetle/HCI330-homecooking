@@ -25,7 +25,7 @@ body {
   margin: 0 0 20px 0;
 }
 
-.leftbarcontainer button {
+.leftbarcontainer #Search {
   position: relative;
   left: 195px;
   background-color: #D20000;
@@ -66,6 +66,21 @@ body {
 .dropdown [data-toggle="dropdown"]:hover {
   background: #D20000;
 }
+
+.leftbarcontainer .recipeTab {
+  position: relative;
+  background-color: #D20000;
+  border: 1px solid #D20000;
+  width: 280px;
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  padding: 10px;
+}
+
 .dropdown .icon-arrow {
   position: absolute;
   display: block;
