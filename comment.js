@@ -52,6 +52,14 @@ function goToOverview() {
     $("html,body").animate({scrollTop: $("#Overview").offset().top}, 500);//relocate to Overview
 }
 
+function goToTimeConsuming() {
+    $("html,body").animate({scrollTop: $("#TimeConsuming").offset().top}, 500);//relocate to TimeConsuming
+}
+
+function goToTotalCost() {
+    $("html,body").animate({scrollTop: $("#TotalCost").offset().top}, 500);//relocate to TotalCost
+}
+
 function goToIngredients() {
     $("html,body").animate({scrollTop: $("#Ingredients").offset().top}, 500);//relocate to Ingredients
 }
