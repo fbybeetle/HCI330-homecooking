@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
 
 /** global **/
+
+
 body {
 	margin:0px auto;
 	padding:0;
@@ -18,10 +20,16 @@ body {
 	width:120px;
 }
 .recipe_img{
-		height:300px;
-		width:250px;
+	height:300px;
+	width:250px;
 	
 }
+
+.signin_logout{
+	float:right;
+}
+
+
 .change_page{
 	float:right;
 }
@@ -30,7 +38,6 @@ body {
 	text-align:center
 }
 .submain{
-	width:650px;
 	width:650px;
 }
 
@@ -257,10 +264,12 @@ section#content {
   height:550px;
 }
 .column-right {
+
 	float:right;
 }
 aside#sidebar {
 	width:280px;
+    position: fixed;
 }
 nav#mainnav ul {
 	padding: 0;

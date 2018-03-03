@@ -1,5 +1,5 @@
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700,900");
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
 body {
   font-family: "Lato", Helvetica, Arial;
   font-size: 16px;
@@ -38,11 +38,6 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
-
-.recipe_menu{
-  position:fixed;
-  z-index:1;
 }
 
 .title {
@@ -85,6 +80,49 @@ body {
   font-size: 16px;
   padding: 10px;
 }
+
+.leftbarcontainer .selectli1{
+  position: relative;
+  background-color: #D20000;
+  border: 1px solid #D20000;
+  width: 280px;
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.leftbarcontainer .selectli2{
+  position: relative;
+  background-color: #D20000;
+  border: 1px solid #D20000;
+  width: 280px;
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.leftbarcontainer .selectli3{
+  position: relative;
+  background-color: #D20000;
+  border: 1px solid #D20000;
+  width: 280px;
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  padding: 10px;
+}
+
 .dropdown .icon-arrow {
   position: absolute;
   display: block;
