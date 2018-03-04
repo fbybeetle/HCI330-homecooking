@@ -1,0 +1,40 @@
+body {
+	border: solid 2px;
+	border-color: red;
+	border-radius: 20px;
+}
+
+.upload-form { 
+	padding: 20px;
+}
+
+
+.upload-title {
+	text-align: center;
+	margin: 30px;
+}
+
+.upload-input {
+	margin: 20px;
+}
+
+.input-full-width { 
+	width: 100%;
+}
+
+.upload-recipe-name-input {
+	width: 50%;
+	height: 30px;
+}
+
+.upload-button {
+	width: 150px;
+	background-color: red;
+  color: white;
+  border-radius: 30px;
+  height: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
