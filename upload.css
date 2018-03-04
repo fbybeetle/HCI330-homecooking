@@ -4,7 +4,7 @@ body {
 	border-radius: 20px;
 }
 
-.upload-form { 
+#upload-form { 
 	padding: 20px;
 }
 
@@ -36,5 +36,9 @@ body {
   font-size: 20px;
   margin-left: 20px;
   margin-top: 20px;
+}
+
+.upload-image-url {
+	height: 30px;
 }
 
