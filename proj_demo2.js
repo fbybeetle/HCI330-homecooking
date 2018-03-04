@@ -64,7 +64,7 @@ window.addEventListener("load", function(event) {
 	var recipeTitleLink = document.createElement('a');
 	recipeTitleLink.href = 'new-recipe-detail.html';
 	recipeTitleLink.innerHTML = newRecipeInList.name;
-
+    recipeTitleLink.setAttribute("target","_blank")
 	recipeTitleElement.className += 'recipe_name';
 	recipeTitleElement.appendChild(recipeTitleLink)
 
@@ -85,7 +85,7 @@ function processForm(e) {
   		imageUrl = document.getElementById('upload-image-url').value,
   		estimatedCost = document.getElementById('upload-estimated-cost').value,
   		estimatedTime = document.getElementById('upload-estimated-time').value;
-
+		
   newRecipe = {
   	name: name,
   	'ingredients': ingredients,
@@ -94,10 +94,14 @@ function processForm(e) {
   	'estimatedCost': estimatedCost, 
   	'estimatedTime': estimatedTime
   }
-
+  if (imageUrl == "")
+  {
+	  window.alert("you need add the image url")
+	  return false;
+  }
   localStorage.setItem('new_recipe', JSON.stringify(newRecipe));
-  window.location.replace('index.html');
 
+  window.location.replace('index.html');
   return false;
 }
 

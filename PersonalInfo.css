@@ -1,0 +1,37 @@
+
+.PersonalInfo{
+    border:0px;
+    width:600px;
+    height:950px;
+}
+
+.personalInfo_title {
+    margin-bottom: 70px;
+}
+
+h1.User_name {
+    display: inline;
+    color: dimgrey;
+    font-size: 30px;
+}
+
+.personalInfo_content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid red 2px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.personalInfo_subtitle {
+    font-style: italic;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
