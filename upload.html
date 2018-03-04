@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<title>Upload recipe</title>
+	<link rel="stylesheet" href="substyles.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="upload.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<h1 class="upload-title">New Recipe</h1>
+	<form id="upload-form">
+	  <div class="upload-input">
+	    <h5>Name</h5>
+	    <input id="upload-name" type="text" class="form-control upload-recipe-name-input">
+	  </div>
+	  <div class="upload-input">
+    	<h5>Ingredients</h5>
+    	<textarea id="upload-ingredients" class="form-control input-full-width" id="ingredients" rows="10"></textarea>
+  	</div>
+  	<div class="upload-input">
+  		<h5>Instructions</h5>
+    	<textarea id="upload-instructions" class="form-control input-full-width" id="instructions" rows="10"></textarea>
+  	</div>
+  	<div class="upload-input">
+  		<h5>Image url</h5>
+  		<input id="upload-image-url" type="text" class="input-full-width upload-image-url">
+  	</div>
+  	<div class="upload-input">
+	    <h5>Estimated Cost ($)</h5>
+	    <input id="upload-estimated-cost" type="text" class="form-control upload-recipe-name-input">
+	  </div>
+	  <div class="upload-input">
+	    <h5>Estimated Time (min)</h5>
+	    <input id="upload-estimated-time" type="text" class="form-control upload-recipe-name-input">
+	  </div>
+	  <button type="submit" class="upload-button">Submit</button>
+	</form>
+	<script src="proj_demo2.js"></script>
+</body>
+</html>
