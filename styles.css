@@ -13,6 +13,11 @@ body {
 	margin:0;
 	padding:0;
 }
+
+.signin_logout{
+	float:right;
+}
+
 .recipes{
 	height:320px;
 	width:120px;
