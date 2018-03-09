@@ -252,7 +252,7 @@ section#body {
 
 /** content+sidebar styles **/
 section#content {
-	width:600px;
+	width:640px!important;
 	padding: 20px;
 	background-color: #fff;
 }
