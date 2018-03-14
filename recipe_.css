@@ -68,11 +68,15 @@ aside#sidebar {
 	width:320px !important;
     position: fixed;
 }
+
+
+
+
 .leftbarcontainer .recipeTab {
   position: relative;
   background-color: #D20000;
   border: 1px solid #D20000;
-  width: 320px !important;
+  width: 280px !important;
   margin: auto;
   color: white;
   text-decoration: none;
@@ -105,4 +109,10 @@ aside#sidebar {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+section#recipecontent {
+	width:640px!important;
+	padding: 20px;
+	background-color: #fff;
 }
