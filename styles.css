@@ -246,7 +246,7 @@ header div.tagline a {
 /** body **/
 section#body {
 	padding: 0;
-	background: #2f2f2f;
+	background: #2f2f2f!important;
 }
 
 

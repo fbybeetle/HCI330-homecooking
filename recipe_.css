@@ -116,3 +116,7 @@ section#recipecontent {
 	padding: 20px;
 	background-color: #fff;
 }
+
+#recipebody {
+	background-color: #222!important;
+}

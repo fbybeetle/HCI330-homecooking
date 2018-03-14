@@ -29,7 +29,29 @@ h1.User_name {
     font-weight: bold;
 }
 
+.leftbarcontainer .recipeTab {
+    position: relative;
+    background-color: #D20000;
+    border: 1px solid #D20000;
+    width: 280px !important;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+}
 
+.leftbarcontainer {
+    width: 320px !important;
+    margin: 50px auto;
+}
+.leftbarcontainer > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
 
 
 
