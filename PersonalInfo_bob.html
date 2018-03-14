@@ -24,8 +24,12 @@
                     <button onclick="goToProfile()" class="recipeTab">My Profile </button>
                 </li>
                 <li>
-                    <button onclick="goToRecipes()" class="recipeTab">My Recipes </button>
+                    <button onclick="goToRecipes()" class="recipeTab">My Uploads </button>
                 </li>
+                <li>
+                    <button onclick="goToFavorites()" class="recipeTab">My Favorites </button>
+                </li>
+
             </ul>
 
         </div>
@@ -41,7 +45,7 @@
                 <h2 id="MyProfile"  class="personalInfo_subtitle">My Profile</h2>
                 <ul>
                     <li>
-                        User Name: Bob
+                        Name: Bob
                     </li>
                     <br>
                     <li>
@@ -63,7 +67,7 @@
             </div>
 
             <div class="personalInfo_content">
-                <h2 id="MyRecipes"  class="personalInfo_subtitle">My Recipes</h2>
+                <h2 id="MyRecipes"  class="personalInfo_subtitle">My Uploads</h2>
                 <ul>
                     <li>
                         <a href="upload.html">Create a new recipe</a>                     <!--Please link this to the uploading page-->
@@ -74,6 +78,18 @@
                     </li>
                 </ul>
             </div>
+
+
+            <div class="personalInfo_content">
+                <h2 id="MyFavorites"  class="personalInfo_subtitle">My Favorites</h2>
+                <ul>
+                    <li>
+                        No recipe yet                        
+                    </li>
+                </ul>
+            </div>
+
+
 
         </div>
 

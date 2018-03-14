@@ -120,3 +120,17 @@ section#recipecontent {
 #recipebody {
 	background-color: #222!important;
 }
+
+#add_to_favorite {
+	font-size: 10px;
+  font-family: fantasy;
+  border: 1px solid;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 350px;
+}
+
+#add_to_favorite:hover {
+	cursor: pointer;
+}
