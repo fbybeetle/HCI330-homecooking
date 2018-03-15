@@ -96,9 +96,33 @@ function processForm(e) {
   }
   if (imageUrl == "")
   {
-	  window.alert("you need add the image url")
+	  window.alert("You need fill all blank")
 	  return false;
   }
+    if (ingredients == "")
+    {
+        window.alert("You need fill all blank")
+        return false;
+    }
+    if (instructions == "")
+    {
+        window.alert("You need fill all blank")
+        return false;
+    }
+    if (estimatedCost == "")
+    {
+        window.alert("You need fill all blank")
+        return false;
+    }
+    if (estimatedTime == "")
+    {
+        window.alert("You need fill all blank")
+        return false;
+    }
+
+    
+
+
   localStorage.setItem('new_recipe', JSON.stringify(newRecipe));
 
   window.location.replace('index.html');
