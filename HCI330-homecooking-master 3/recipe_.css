@@ -1,0 +1,136 @@
+.recipe_description {
+	display: inline-block;
+	margin-left: 40px;
+	vertical-align: text-bottom;
+}
+
+.recipe_image_ingredients_wrapper {
+	background-color: aliceblue;
+	border-radius: 50px;
+}
+
+.recipe_img_large {
+	width: 300px;
+	height: 300px;
+	vertical-align: top;
+}
+
+.recipe_img_round {
+	border-radius: 50px;
+}
+
+.recipe_title {
+	margin-bottom: 70px;
+}
+
+.ingredients_title {
+	margin-bottom: 30px;
+}
+
+.recipe_subtitle {
+	font-style: italic;
+	font-family: fantasy;
+	font-weight: bold;
+}
+
+h1.recipe_name {
+	display: inline;
+	color: dimgrey;
+}
+
+.recipe_instructions {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: solid red 2px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.recipe_username {
+	color: black;
+	font-size: 20px;
+	font-family: fantasy;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+#rating_img {
+	width: 100px;
+	margin-top: 12px;
+}
+
+.review_counts {
+	font-size: 15px;
+	color: black;
+	font-family: fantasy;
+}
+aside#sidebar {
+	width:320px !important;
+    position: fixed;
+}
+
+
+
+
+.leftbarcontainer .recipeTab {
+  position: relative;
+  background-color: #D20000;
+  border: 1px solid #D20000;
+  width: 280px !important;
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.leftbarcontainer {
+  width: 320px !important;
+  margin: 50px auto;
+}
+.leftbarcontainer > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.leftbarcontainer #Search {
+  position: relative;
+  left: 195px;
+  background-color: #D20000;
+  border: 1px solid #D20000;
+  border-radius: 4px;
+
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+section#recipecontent {
+	width:640px!important;
+	padding: 20px;
+	background-color: #fff;
+}
+
+#recipebody {
+	background-color: #222!important;
+}
+
+#add_to_favorite {
+	font-size: 10px;
+  font-family: fantasy;
+  border: 1px solid;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 350px;
+}
+
+#add_to_favorite:hover {
+	cursor: pointer;
+}
