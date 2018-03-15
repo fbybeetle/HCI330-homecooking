@@ -54,6 +54,7 @@ h1.User_name {
 }
 
 
-
-
-
+.peronalsidebar
+{
+    position: fixed;
+}

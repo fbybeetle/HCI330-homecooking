@@ -134,3 +134,7 @@ section#recipecontent {
 #add_to_favorite:hover {
 	cursor: pointer;
 }
+.recipesidebar
+{
+	position: fixed;
+}
