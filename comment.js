@@ -21,12 +21,23 @@ function push_comment(){
 	var new_user = document.createElement("div");
 	var new_content = document.createElement("div");
 	var new_time = document.createElement("label");
-	var new_star = document.createElement("img");
+	var new_star = document.createElement("div");
 	var range_pos = 0;
-	new_star.setAttribute("src","star.png");
-	range_pos = star_number * 2 - 1;
-	new_star.setAttribute("style",range[range_pos]);
-
+	//new_star.setAttribute("src","star.png");
+	//range_pos = star_number * 2 - 1;
+	//new_star.setAttribute("style",range[range_pos]);
+	for (var i=0;i < star_number;i++)
+	{
+		var tmp = document.createElement("span");
+		tmp.setAttribute("class","fa fa-star checked");
+		new_star.appendChild(tmp);
+	}
+	for (var i=0;i < 5-star_number;i++)
+	{
+		var tmp = document.createElement("span");
+		tmp.setAttribute("class","fa fa-star");
+		new_star.appendChild(tmp);
+	}	
 	
 	// new_star.setAttribute("type","number");
 	// new_star.setAttribute("class","rating");
