@@ -53,6 +53,12 @@ window.addEventListener('message', function(event) {
 window.addEventListener("load", function(event) {
 	var newRecipeInList = JSON.parse(localStorage.getItem("new_recipe"));
 
+	var uploaded_recipe = document.createElement("li");
+	var recipe_name = document.createElement("a");
+	recipe_name.href = "new-recipe-detail.html";
+	recipe_name.innerHTML = newRecipeInList.name;
+    recipe_name.setAttribute("target","_blank");
+    uploaded_recipe.appendChild(recipe_name);
 
 	var newRecipeElement = document.createElement('div');
 	newRecipeElement.className += "col-2";
@@ -64,15 +70,19 @@ window.addEventListener("load", function(event) {
 	var recipeTitleLink = document.createElement('a');
 	recipeTitleLink.href = 'new-recipe-detail.html';
 	recipeTitleLink.innerHTML = newRecipeInList.name;
-    recipeTitleLink.setAttribute("target","_blank")
+    recipeTitleLink.setAttribute("target","_blank");
 	recipeTitleElement.className += 'recipe_name';
-	recipeTitleElement.appendChild(recipeTitleLink)
+	recipeTitleElement.appendChild(recipeTitleLink);
 
 	newRecipeElement.appendChild(img);
 	newRecipeElement.appendChild(recipeTitleElement);
 
-	document.getElementById('recipe_pos').append(newRecipeElement);
-
+	if(document.getElementById('recipe_pos')) {
+        document.getElementById('recipe_pos').append(newRecipeElement);
+    }
+    if(document.getElementById('uploaded_recipe')){
+        document.getElementById('uploaded_recipe').append(uploaded_recipe);
+	}
 });
 
 
@@ -96,9 +106,33 @@ function processForm(e) {
   }
   if (imageUrl == "")
   {
-	  window.alert("you need add the image url")
+	  window.alert("You need fill all blank")
 	  return false;
   }
+    if (ingredients == "")
+    {
+        window.alert("You need fill all blank")
+        return false;
+    }
+    if (instructions == "")
+    {
+        window.alert("You need fill all blank")
+        return false;
+    }
+    if (estimatedCost == "")
+    {
+        window.alert("You need fill all blank")
+        return false;
+    }
+    if (estimatedTime == "")
+    {
+        window.alert("You need fill all blank")
+        return false;
+    }
+
+
+
+
   localStorage.setItem('new_recipe', JSON.stringify(newRecipe));
 
   window.location.replace('index.html');

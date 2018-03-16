@@ -266,7 +266,6 @@ section#content {
 }
 aside#sidebar {
 	width:280px;
-    position: fixed;
 }
 nav#mainnav ul {
 	padding: 0;

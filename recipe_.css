@@ -9,6 +9,12 @@
 	border-radius: 50px;
 }
 
+.checked {
+    color: #fde16d !important;
+}
+.fa{
+	color:#e3e3e3;
+}
 .recipe_img_large {
 	width: 300px;
 	height: 300px;
@@ -135,4 +141,8 @@ section#recipecontent {
 
 #add_to_favorite:hover {
 	cursor: pointer;
+}
+.recipesidebar
+{
+	position: fixed;
 }

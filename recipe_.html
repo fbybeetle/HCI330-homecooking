@@ -12,6 +12,7 @@
   	<link rel="stylesheet" href="styles.css" type="text/css" />
   	<link rel="stylesheet" type="text/css" href="recipe_.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
@@ -24,7 +25,7 @@
 
 <body id="recipebody">
 	<section id="body" class="width">
-		<aside id="sidebar" class="column-left">
+		<aside id="sidebar" class="column-left recipesidebar">
 			<div id="SidebarTitle"><a href="index.html">Home Cooking</a></div>
 			<div class="leftbarcontainer">
 				<ul>
@@ -110,7 +111,7 @@
 
 			<article>
 				<div id = "Reviews">
-			<input id = "input_star" value = "0" type = "number" class = "rating" min=0 max=5 step=0.5 data-size = "lg">
+			<input id = "input_star" value = "0" type = "number" class = "rating" min=0 max=5 step=1 data-size = "md">
 				<label for="comment" class="required">Your name</label>
 				<textarea name="comment" class = "name_input" id="you_name" rows="1" tabindex="2"  ></textarea>
 				<br>
